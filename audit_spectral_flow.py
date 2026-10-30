@@ -1,5 +1,3 @@
-"""Audit of the spectral-flow claim (v12, Prop. 2.3): singular values of the ordinary block
-alpha = Pi_+ exp(-i theta) Pi_+  for a lattice two-edge pulse of height h; P0 = prod eps_j."""
 import numpy as np, sys
 def pulse(N,h,w,off):
     x=np.arange(N); st=lambda x0: 0.5*(1+np.tanh((x-x0)/w))
