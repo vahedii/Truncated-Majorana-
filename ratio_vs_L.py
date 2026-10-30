@@ -1,5 +1,4 @@
 import numpy as np, sys
-sys.path.insert(0,'/home/claude/v4/code')
 from fastfcs import lnG_fast, Uplus
 xis=np.array([0.1,0.2,0.3,0.4])
 out={}
