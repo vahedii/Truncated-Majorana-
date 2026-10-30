@@ -1,4 +1,4 @@
-# Reproducing the numerical audit (Appendix Q of truncated_majorana_v7.tex)
+# Reproducing the numerical audit 
 
 Requirements: python3, numpy, scipy, mpmath (no GPU, minutes on a laptop; N=8192 runs need ~2 GB RAM).
 Run all scripts from this folder (fastfcs.py / charge_fcs.py are the shared determinant routines).
