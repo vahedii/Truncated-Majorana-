@@ -1,5 +1,5 @@
 """(1) singular endpoint of the charge theorem (y^2 = 1/2):  ln|<e^{i xi Q}>| = -L/8 per edge/FP.
-   (2) exact tanh form factor (v12 Eq. 69): g_+(q) = int dt e^{iqt} d/dt e^{i theta(t)} = e^{i th_-} i dth Q(q tau) 1F1(1+i a; 2; i dth), a = q tau/2."""
+   (2) exact tanh form factor : g_+(q) = int dt e^{iqt} d/dt e^{i theta(t)} = e^{i th_-} i dth Q(q tau) 1F1(1+i a; 2; i dth), a = q tau/2."""
 import numpy as np, sys, mpmath as mp
 sys.path.insert(0,'.')
 from fastfcs import lnG_fast, Uplus
